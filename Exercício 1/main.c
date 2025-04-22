@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Contando número de bits na mantissa para números em ponto flutuante (float)
 int contarBitsFloat()
 {
     float um = 1.0f;
@@ -15,6 +16,7 @@ int contarBitsFloat()
     return contador + 1;
 }
 
+// Contando número de bits na mantissa para números em ponto flutuante (caso double)
 int contarBitsDouble()
 {
     double um = 1.0;
